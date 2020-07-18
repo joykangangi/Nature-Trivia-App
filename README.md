@@ -4,5 +4,5 @@ a)The navigation drawer
 b)The options menu
 c)Fragments
 d)Grid-layout
-they're screenshots displaying some of the screens,this is the directory:NaturetriviaApp->app->sampledata->screenshot
+there are screenshots displaying some of the screens,this is the directory:NaturetriviaApp->app->sampledata->screenshot
 :)
