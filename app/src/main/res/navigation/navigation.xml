@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.naturesample.DashboardFragment"
+
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_learnFragment"
+            app:destination="@id/learnFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_faqsFragment"
+            app:destination="@id/faqsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_moreFragment"
+            app:destination="@id/moreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/learnFragment"
+        android:name="com.example.naturesample.LearnFragment"
+        android:label="@string/learn"
+        tools:layout="@layout/fragment_learn" >
+        <action
+            android:id="@+id/action_learnFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.naturesample.QuizFragment"
+        android:label="@string/quiz"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_quizFragment_to_gameWonFragment"
+            app:destination="@id/gameWonFragment"
+            app:popUpTo="@id/quizFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_quizFragment_to_gameOverFragment2"
+            app:destination="@id/gameOverFragment2"
+            app:popUpTo="@id/quizFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/faqsFragment"
+        android:name="com.example.naturesample.FaqsFragment"
+        android:label="@string/faq"
+        tools:layout="@layout/fragment_faqs" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.example.naturesample.MoreFragment"
+        android:label="@string/more"
+        tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/gameOverFragment2"
+        android:name="com.example.naturesample.GameOverFragment"
+        android:label="@string/try_again"
+        tools:layout="@layout/fragment_game_over" >
+        <action
+            android:id="@+id/action_gameOverFragment2_to_quizFragment"
+            app:destination="@id/quizFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameWonFragment"
+        android:name="com.example.naturesample.GameWonFragment"
+        android:label="@string/cong"
+        tools:layout="@layout/fragment_game_won" >
+        <action
+            android:id="@+id/action_gameWonFragment_to_quizFragment"
+            app:destination="@id/quizFragment"
+            app:popUpTo="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.example.naturesample.RulesFragment"
+        android:label="@string/rules"
+        tools:layout="@layout/fragment_rules" />
+</navigation>

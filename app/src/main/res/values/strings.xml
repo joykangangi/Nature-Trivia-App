@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Nature Sample</string>
+    <string name="Nature">The travel destination:)</string>
+    <string name="pple_image">Tourists</string>
+    <string name="tourist">tourist</string>
+    <string name="faq">FAQ\'s</string>
+    <string name="more">More</string>
+    <string name="quiz">Do the quiz</string>
+    <string name="learn">Learn</string>
+    <string name="tg">Tour Guide</string>
+    <string name="faqs">image of FAQ</string>
+    <string name="mr"> more Image </string>
+    <string name="Le">Let\'s discover some cool places</string>
+    <string name="pr">Paris</string>
+    <string name="paris">If you want to experience love this is the place to go.
+    \nHome of famous artworks,astonishing architecture and a gastronomic extravaganza.\nUne ville qui bouge.
+    \n\nMust visit spots:
+    \n1.Eiffel Tower->it\'s admirable lights at night make it better.
+    \n2.Louvre Museum->Where Monalisa is preserved.
+    \n3.Le Siene.
+    </string>
+    <string name="br">BoraBora</string>
+    <string name="BoraBora">With these activities you will have a fun-filled BoraBora vacation full
+        of rich experiences that are unique to Tahiti:
+        \n1.A Lagoon tour->Circle Island by outrigger canoe
+        \n2.Motu Picnic->you are swept awat by boat to a secluded little motu in the lagoon,get a traditional
+        Tahitian cuisine,mmmmh sounds like a perfect gate-away with your spouse.
+        \n3.Matira Beach->Laid back atmosphere,pure white sand and calm turquoise water allow true relaxation
+    </string>
+    <string name="bl">Bali</string>
+    <string name="Bali">The intoxicating fragrance of incense and clove oil hangs
+        in the thick tropical air.A visit in these places sparks the senses.
+        \n1.Pura Tanah Lot->An iconic temple and its spectacular seaside setting,on a rocky,
+        islet surrounded by crashing waves wows all who visit.
+        \n2.Mount Batur->The hike,along well-marked trails,is relatively easy and usually takes 2-3 hours.Not to miss the sunrise above the lush mosaic of mist-shrouded mountains
+        and the caldera far below.
+        \n3.->Ubud Monkey Forest->Best place to visit if you are an animal lover or photographer.
+    </string>
+    <string name="It">Italy</string>
+    <string name="Italy">As the birthplace of the Roman Empire and the Renaissance,it\'s not surprising that Italy should be so rich
+        in masterpieces of art and architecture.
+        \n1.Colosseum->The largest Amphitheater ever built by the Roman Empire and has remained a model for sports facilities
+        right up to modern times.
+        \n2.Venice Canals->A gondola ride through the canals of Venice is a tradition that travellers have been enjoying for centuries.
+        \n3.The Leaning Tower of Pisa->A climb to the top of the tower gives a fabulous view over the city.
+    </string>
+    <string name="Ke">Kenya</string>
+    <string name="Kenya">Perhaps no other place on the planet conjures such a spirit of adventure and romance.
+        \n1.Maasai Mara National Reserve->Magnificent game reserve famous for the Great Migration,when thousands of wildebeest ,zebra and gazelle travel to and from Serengeti.
+        \n2.Tsavo National Park->A large park encompassing rivers,waterfalls,savannah,volcanic hills,a massive lava-rock plateau and an impressive diversity of wildlife.
+        \n3.Lamu Island->This place oozes old-world charm,strolling the labyrinthine streets,you can see the island\'s rich trading history reflected in the buildings.
+    </string>
+    <string name="ranfet">chipmank ranger</string>
+    <string name="rabbit">Ranger Rabbit</string>
+    <string name="submit_button">Submit</string>
+    <string name="title_nature_trivia_question">Nature Trivia (%2$d/%1$d)</string>
+    <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
+    <string name="title_about_trivia">About Trivia</string>
+    <string name="title_trivia_rules">Trivia Rules</string>
+    <string name="cong">Congratulations</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!</string>
+    <string name="congratulations">Bravo!.</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="try_again">try again</string>
+    <string name="faqs_text">This application will help you discover some interesting tourist sites and do a quiz afterwards.
+    </string>
+    <string name="protip">1.Download the GateGuru app before your next trip:It shows maps and amenities for any terminal,so you can
+    arrive early for a quick manicure.
+    \n\n2.Do a reconnaissance of the place you would like to visit.\nYou don\'t want to go wearing your fleece jacket in the middle of an arid area.
+</string>
+    <string name="rules_text">1.Learn about the tourist sites.\n2.Do the quiz to test your knowledge.</string>
+    <string name="doq">Do the quiz</string>
+    <string name="rules">Rules</string>
+    <string name="next_match">Next Match</string>
+    <string name="rule_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+</resources>
